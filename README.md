@@ -7,8 +7,11 @@ As such, the purpose of this project is to help learn the process of using the Q
 # Deutsch Jozsa (DJ) algorithm background
 The deutsch jozsa algorithm determines if a given function f(x) which accepts x, an n-bit input, is constant or balanced.
 
+A constant f(x) will either return 0 for all inputs or 1 for all inputs.
+For example, an x with a 2-bit input space will have 4 possible combinations such that all four either ruturn 0 or 1.
+
 A balanced f(x) will return 0 and 1 evenly distributed across values of x.
-For example, a 3 bit input will has 8 possible combinations such that four unique inputs return 0 where the other four unique inputs return 1.
+For example, an x with a 3-bit input will have 8 possible combinations such that four unique inputs return 0 where the other four unique inputs return 1.
 
 **Classical**
 * In the worst case scenario, a classical computer will have an O(2^n) runtime since it will have to compute every input combination in the case that f(x) is constant.
