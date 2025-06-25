@@ -21,3 +21,19 @@ For example, an x with a 3-bit input will have 8 possible combinations such that
 **Quantum**
 * A quantum computer will have a constant O(1) runtime for all values of n, since it can determine the probability of f(x) returning 1 or 0 in a single iteration of the DJ algorithm.
 * However, due to the unreliability of qubits, this algorithm should be re-run many times to increase accuracy. (unlike classical computers quantum computers are prone to errors).
+
+# Sample results for a constant f(x) over 1000 shots
+_Note that the simulator has errors from simulated random noise similar to the actual quantum computer results_
+
+### Qiskit Simulator
+
+![29b22e8c-c17a-4633-9b34-02f04e36d8ef](https://github.com/user-attachments/assets/f606c80f-33ab-460b-bf7f-da352ce7ea69)
+
+### IBM Quantum Cloud
+
+![882966e2-e2bb-4cc5-8c2a-9372c33e9617](https://github.com/user-attachments/assets/1f2f6ce9-ca82-46a8-ba02-8d2d63d62b64)
+
+### Qiskit Circuit Diagram for DJ Algorithm
+
+![f3df4215-f385-4de8-b4fc-53fce415a3de](https://github.com/user-attachments/assets/598d3564-86af-48b1-a077-f9e75edf8471)
+
