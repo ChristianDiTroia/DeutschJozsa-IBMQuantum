@@ -6,6 +6,7 @@ As such, the purpose of this project is to help learn the process of using the Q
 
 # Deutsch Jozsa (DJ) algorithm background
 The deutsch jozsa algorithm determines if a given function f(x) which accepts x, an n-bit input, is constant or balanced.
+
 A balanced f(x) will return 0 and 1 evenly distributed across values of x.
 For example, a 3 bit input will has 8 possible combinations such that four unique inputs return 0 where the other four unique inputs return 1.
 
