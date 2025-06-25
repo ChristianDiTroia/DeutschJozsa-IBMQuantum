@@ -23,7 +23,9 @@ For example, an x with a 3-bit input will have 8 possible combinations such that
 * However, due to the unreliability of qubits, this algorithm should be re-run many times to increase accuracy. (unlike classical computers quantum computers are prone to errors).
 
 # Sample results for a constant f(x) over 1000 shots
-_Note that the simulator has errors from simulated random noise similar to the actual quantum computer results_
+_All 0 bit strings indicate a constant function, any other bit string indicates a balanced function._
+
+_Note that the simulator has errors from simulated random noise similar to the actual quantum computer results._
 
 ### Qiskit Simulator
 
